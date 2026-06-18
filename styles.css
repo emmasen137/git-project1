@@ -3,8 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .si {
-  color: red;
-  font-size: 20px;
+  padding: 50px;
+  border-radius: 50px;
+  background-color: #d31717;
 }
